@@ -6,7 +6,7 @@ namespace ProductReviewManagement
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Product review Management Problem Statement");
+            
             List<ProductReview> listProductReview = new List<ProductReview>()
             {
                 new ProductReview(){ProductId = 1, UserId = 1, Rating = 5, Review = "Good", IsLike = true },
